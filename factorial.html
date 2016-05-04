@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var input = prompt("Please input a number");
+var numinput = parseInt(input, 10);
+var numminus = numinput - 1
+function factorial(n) {
+	var answer = 1;
+	for(var i = n; i >= 1; i = i-1 ) {
+		 answer = answer*i  
+	}
+	return answer   
+}
+console.log(factorial(numinput));
+
+</script>
+</body>
+</html>
